@@ -1,0 +1,138 @@
+body {
+background-color: #F2F2F2;
+max-width: 375px;
+margin: 0;
+}
+
+h1 {
+color: #F2F2F2;
+font: 2.2em "Big Shoulders Display" , sans-serif;
+font-weight: 700;
+text-transform: uppercase;
+}
+
+p {
+color: #FFFFFF;
+opacity: 0.75;
+font: 0.9em "Lexend Deca" , sans-serif;
+font-weight: 100;
+padding: 0.5em 1em 5em 0;
+line-height: 1.8em;
+}
+
+h3 {
+font: 0.9em "Lexend Deca" , sans-serif;
+font-weight: 400;
+background-color: #FFFFFF;
+display: inline;
+border-radius: 2em;
+border-width: 30em;
+padding: 0.9em 1.7em;
+}
+
+.container {
+display: flex;
+flex-direction: row;
+margin: auto;
+width: 60em;
+height: 30em;
+align-items: center;
+overflow: hidden;
+}
+
+.card1 {
+background-color: #E38826;
+flex-grow: 1;
+flex-shrink: 1;
+height: 100%;
+width: 60%;
+padding: 15em 3em 10em 3em;
+}
+
+.card2 {
+background-color: #006970;
+flex-grow: 1;
+flex-shrink: 1;
+height: 100%;
+width: 60%;
+padding: 15em 3em 10em 3em;
+}
+
+.card3 {
+background-color: #004241;
+flex-grow: 1;
+flex-shrink: 1;
+height: 100%;
+width: 60%;
+padding: 15em 3em 10em 3em;
+}
+
+.lm1 {
+color: #E38826
+}
+
+.lm2 {
+color: #006970
+}
+
+.lm3 {
+color: #004241
+}
+
+@media (orientation: portrait) {
+    .container {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 90%;
+    height: 1500px;
+    align-items: center;
+    overflow: hidden;
+    padding: 3em 1em 3em 1em;
+    }
+
+    .card1 {
+    background-color: #E38826;
+    flex-grow: 1;
+    flex-shrink: 1;
+    height: 30%;
+    width: 100%;
+    padding: 0;
+    }
+
+    .card2 {
+    background-color: #006970;
+    flex-grow: 1;
+    flex-shrink: 1;
+    height: 30%;
+    width: 100%;
+    padding: 0;
+    }
+
+    .card3 {
+    background-color: #004241;
+    flex-grow: 1;
+    flex-shrink: 1;
+    height: 30%;
+    width: 100%;
+    padding: 0;
+    }
+
+    h1 {
+      padding: 0 0 0 3rem;
+      font-size: 2.5rem;
+    }
+
+    p {
+      padding: 1em 4em 2.5rem 3rem;
+    }
+
+    h3 {
+      margin: 0 0 0 3rem;
+    }
+
+    img {
+      padding: 4em 0 0 3rem;
+    }
+
+}
